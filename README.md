@@ -49,23 +49,7 @@ We use **Kaiser Permanente** as a case study example.
 
 ---
 
-## 🚦 Setup Instructions
-
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Run the notebook:**
-   Open and run the notebook to generate your FAISS vector store and start the Gradio app.
-
-3. **FAISS Optimization:**
-   After initial embedding, the FAISS index is saved locally. On subsequent runs, it loads instantly using:
-   ```python
-   FAISS.load_local("kaiser_faiss_index", embeddings, allow_dangerous_deserialization=True)
-   ```
-
-4. **Gradio App:**
+**Gradio App:**
    The Gradio interface lets users input questions interactively.
 
 ---
