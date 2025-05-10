@@ -25,6 +25,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.env
+AI_Agent_For_Strategic_Intelligence_with_Crawler.ipynb
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
