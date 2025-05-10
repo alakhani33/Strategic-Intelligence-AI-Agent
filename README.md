@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 🕵️ AI Agent for Strategic Intelligence
 
@@ -78,3 +79,7 @@ We use **Kaiser Permanente** as a case study example.
 
 ---
 
+=======
+# Strategic-Intelligence-AI-Agent
+This project implements a deployable AI agent that extracts strategic intelligence from company websites and public data sources. Using Kaiser Permanente as a case study, the agent scrapes and embeds web content, builds a retrieval-based QA system, and integrates with external tools (Wikipedia) via LangChain. The agent prioritizes answers from company data first, falling back to external sources only if needed. The solution is wrapped in a Gradio app for easy user interaction.
+>>>>>>> 9349923f337f85c4bb4d342e840c5889f66e1a5c
