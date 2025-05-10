@@ -1,2 +1,2 @@
 # Strategic-Intelligence-AI-Agent
-This project creates an AI-powered agent that delivers interactive strategic intelligence by combining web scraping, information extraction, and Q&amp;A functions, all in one.
+This project implements a deployable AI agent that extracts strategic intelligence from company websites and public data sources. Using Kaiser Permanente as a case study, the agent scrapes and embeds web content, builds a retrieval-based QA system, and integrates with external tools (Wikipedia) via LangChain. The agent prioritizes answers from company data first, falling back to external sources only if needed. The solution is wrapped in a Gradio app for easy user interaction.
